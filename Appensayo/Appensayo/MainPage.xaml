@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             
+             x:Class="Appensayo.MainPage">
+
+
+    <ContentPage.Resources>
+        <StyleSheet Source="style.css" />
+    </ContentPage.Resources>
+
+
+
+
+
+    <Grid BackgroundColor="#172121" RowSpacing="0"
+          ColumnSpacing="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="100" />
+            
+        </Grid.RowDefinitions>
+
+        
+     
+
+            <!--TEORIA............................................................................-->
+
+
+        <ImageButton  Grid.Column="0"
+                      Grid.Row="1" 
+                      Source="uno.jpg" 
+                      HorizontalOptions="FillAndExpand" 
+                      VerticalOptions="Center"
+                      Margin="0,-100,0,-10" 
+                      Aspect="AspectFill"  
+                      StyleClass="CSSImagen" 
+                      Clicked="ImageButton_Clicked_2"/>
+
+        <Label Grid.Column="0"
+               Grid.Row="1" 
+               Text="Teoria" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="StartAndExpand" 
+               Margin="50,0,0,0" 
+               StyleClass="CSSLabelsub" />
+
+        <!--TITULO..MENÚ............................................................-->
+
+
+        <BoxView Grid.Column="0" Grid.Row="0" 
+            StyleClass="CSSBoxView"
+           
+                 />
+
+
+        <Label Grid.Column="0"
+               Grid.Row="0" 
+               Text="Salud &amp; Nutrición" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="StartAndExpand" 
+               Margin="50,0,0,0" 
+               StyleClass="CSSLabel" />
+
+        <!--PRACTICA....................................................................................................-->
+        
+        <ImageButton Grid.Column="0" 
+                     Grid.Row="2" 
+                     Source="uno.jpg"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand" 
+                     Margin="0,-10,0,0" 
+                     Aspect="AspectFill" 
+                     StyleClass="CSSImagen" 
+                     Clicked="ImageButton_Clicked_1"/>
+
+        <Label Grid.Column="0"
+               Grid.Row="2" 
+               Text="Practica" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="StartAndExpand" 
+               Margin="50,0,0,0" 
+               StyleClass="CSSLabelsub" />
+        
+        <!--INFORMACION DE ACERCA DE ..............................................................................................-->
+
+        <ImageButton Grid.Column="0" 
+                     Grid.Row="3" 
+                     Source="dos.png" 
+                     HorizontalOptions="EndAndExpand" 
+                     VerticalOptions="EndAndExpand"
+                     Margin="0,50,0,0" 
+                     Clicked="ImageButton_Clicked"  />
+
+
+
+
+
+
+
+    </Grid>
+
+   
+
+</ContentPage>

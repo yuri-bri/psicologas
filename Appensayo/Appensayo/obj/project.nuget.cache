@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gmoWjAfxKiQhj6q2VQHGA+PoaP9FGMkHkMwtAH5q2eU+bJVrrV7qa4WrlPC9TS6beTZmpMFGc5FpLqf23EzhpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\YURI\\source\\repos\\Appensayo\\Appensayo\\Appensayo\\Appensayo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YURI\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\YURI\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\YURI\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\YURI\\.nuget\\packages\\xamarin.forms\\4.8.0.1534\\xamarin.forms.4.8.0.1534.nupkg.sha512"
+  ],
+  "logs": []
+}

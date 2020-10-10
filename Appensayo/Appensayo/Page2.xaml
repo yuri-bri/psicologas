@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appensayo.Page2">
+
+
+
+
+
+
+
+
+
+    <ContentPage.Resources>
+        <StyleSheet Source="style.css" />
+    </ContentPage.Resources>
+
+
+
+
+    <Grid RowSpacing="20"  BackgroundColor="#172121"   >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="150" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+
+
+        </Grid.RowDefinitions>
+
+
+        <!--TITULO..MENÚ............................................................-->
+
+
+        <BoxView Grid.Column="0" Grid.Row="0" 
+            StyleClass="CSSBoxView"
+           
+                 />
+
+        <ImageButton  Grid.Column="0" Grid.Row="0"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Margin="50,0,0,0"   Clicked="ImageButton_Clicked"/>
+        <Label Grid.Column="0"
+               Grid.Row="0" 
+               Text="Titulo" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" 
+             
+               StyleClass="CSSLabel" />
+
+        <!--...........................IMAGEN DEL CONTENIDO.................................-->
+
+
+
+        <Image  Grid.Column="0" Grid.Row="1"  Source="uno.jpg"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Aspect="AspectFill"   HeightRequest="200" />
+
+
+
+
+
+
+
+        <!--CONTENIDO............................................................-->
+
+        <Grid  Margin="10"  Grid.Column="0" Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+
+
+
+            <!--........................TEXTO...................................-->
+
+
+            <Label Grid.Column="1" Grid.Row="0" TextColor="White" StyleClass="CSSLabel2"
+                   
+                   Text="oentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus " />
+
+
+
+
+
+            <!--............................Boton AYUDA................................-->
+
+            <Button  
+                     
+                     Grid.Column="1" 
+                     Grid.Row="2"
+                     Text="?"
+                     FontSize="30"
+                     Padding="0"
+                     WidthRequest      ="50"
+                     HeightRequest     ="50"
+                     CornerRadius      ="25"
+                     VerticalOptions   ="End"
+                     HorizontalOptions ="Start"
+                     Clicked="Button_Clicked"
+                     
+                
+                />
+
+          
+
+            <!--............................Boton informacion................................-->
+
+            <Button  
+                     
+                     Grid.Column="1" 
+                     Grid.Row="2" 
+                     Text="i"
+                     FontSize="30"
+                     Padding="0"
+                     WidthRequest      ="50"
+                     HeightRequest     ="50"
+                     CornerRadius      ="25"
+                     VerticalOptions   ="End"
+                     HorizontalOptions ="End"
+                     Clicked="Button_Clicked_1"
+                     
+                
+                />
+
+         
+            
+
+
+        </Grid>
+
+
+
+
+
+
+
+    </Grid>
+
+
+
+
+
+
+
+</ContentPage>

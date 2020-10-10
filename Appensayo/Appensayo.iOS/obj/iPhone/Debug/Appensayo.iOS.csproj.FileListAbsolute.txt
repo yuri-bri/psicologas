@@ -1,0 +1,8 @@
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\optimized\
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\Appensayo.iOS.csprojAssemblyReference.cache
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo.iOS\obj\iPhone\Debug\Appensayo.iOS.csproj.CoreCompileInputs.cache

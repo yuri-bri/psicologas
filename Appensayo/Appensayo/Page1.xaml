@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Appensayo.Page1">
+
+
+    <ContentPage.Resources>
+        <StyleSheet Source="style.css" />
+    </ContentPage.Resources>
+
+
+  
+
+    <Grid BackgroundColor="#172121"   >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="150" />
+            <RowDefinition Height="*" />
+            
+            
+        </Grid.RowDefinitions>
+
+
+        <!--TITULO..MENÚ............................................................-->
+
+
+        <BoxView Grid.Column="0" Grid.Row="0" 
+            StyleClass="CSSBoxView"
+           
+                 />
+
+        <ImageButton  Grid.Column="0" Grid.Row="0"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Margin="50,0,0,0" Clicked="ImageButton_Clicked"/>
+        <Label Grid.Column="0"
+               Grid.Row="0" 
+               Text="Muevete" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" 
+             
+               StyleClass="CSSLabel" />
+
+        <!--............................................................-->
+
+
+
+
+
+        <!--TITULO..MENÚS............................................................-->
+
+        <Grid ColumnSpacing="20" Margin="50"  Grid.Column="0" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+
+
+            <ImageButton  Grid.Column="0" Grid.Row="0"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Clicked="ImageButton_Clicked_1"/>
+
+            <BoxView Grid.Column="0" 
+                     Grid.Row="0"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="EndAndExpand"    
+                     StyleClass="CSSBoxView2"
+                    
+                     
+                     />
+
+
+            <!--...........................UNO.................................-->
+
+
+
+            <ImageButton  Grid.Column="1" Grid.Row="0"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Clicked="ImageButton_Clicked_2" />
+
+            <BoxView Grid.Column="1" 
+                     Grid.Row="0"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="EndAndExpand"    
+                     StyleClass="CSSBoxView2"
+                     
+                     />
+            <!--..........................DOS..................................-->
+
+            <ImageButton  Grid.Column="1" Grid.Row="0"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"  Clicked="ImageButton_Clicked_3"/>
+
+            <BoxView Grid.Column="1" 
+                     Grid.Row="0"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="EndAndExpand"    
+                     StyleClass="CSSBoxView2"
+                     
+                     />
+
+            <!--............................TRES................................-->
+
+
+            <ImageButton  Grid.Column="0" Grid.Row="1"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Clicked="ImageButton_Clicked_4" />
+
+            <BoxView Grid.Column="0" 
+                     Grid.Row="1"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="EndAndExpand"    
+                     StyleClass="CSSBoxView2"
+                     
+                     />
+
+            <!--............................CUATRO................................-->
+
+            <ImageButton  Grid.Column="1" Grid.Row="1"  Source="uno.jpg"  HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"  Clicked="ImageButton_Clicked_5"/>
+
+            <BoxView Grid.Column="1" 
+                     Grid.Row="1"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="EndAndExpand"    
+                     StyleClass="CSSBoxView2"
+                     
+                     />
+
+            <!--............................Boton AYUDA................................-->
+
+            <Button  
+                     
+                     Grid.Column="0" 
+                     Grid.Row="2"  
+                     WidthRequest      ="50"
+                     HeightRequest     ="50"
+                     CornerRadius      ="25"
+                     VerticalOptions   ="End"
+                     HorizontalOptions ="Start"
+                     Clicked="Button_Clicked"
+                
+                />
+            
+            <Label Text="?"
+                   FontSize="30"
+                   Grid.Column="0" 
+                   Grid.Row="2"  
+                   VerticalOptions   ="End"
+                   HorizontalOptions ="Start"
+                   Margin="18,0,0,5"/>
+
+        </Grid>
+
+
+
+
+
+
+
+    </Grid>
+
+   
+
+
+</ContentPage>

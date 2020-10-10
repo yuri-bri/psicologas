@@ -1,0 +1,17 @@
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\bin\Debug\netstandard2.0\Appensayo.deps.json
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\bin\Debug\netstandard2.0\Appensayo.dll
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Appensayo.csprojAssemblyReference.cache
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Appensayo.AssemblyInfoInputs.cache
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Appensayo.AssemblyInfo.cs
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\bin\Debug\netstandard2.0\ref\Appensayo.dll
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\bin\Debug\netstandard2.0\Appensayo.pdb
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\style.css.g.cs
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Appensayo.csproj.CoreCompileInputs.cache
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Appensayo.dll
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\ref\Appensayo.dll
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Appensayo.pdb
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\YURI\source\repos\Appensayo\Appensayo\Appensayo\obj\Debug\netstandard2.0\Page2.xaml.g.cs

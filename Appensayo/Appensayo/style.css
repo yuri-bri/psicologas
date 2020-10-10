@@ -1,0 +1,36 @@
+﻿
+
+
+
+
+
+
+
+
+.CSSBoxView {
+    background-color: white;
+    border-radius: 0 0 80 0;
+    
+}
+
+.CSSBoxView2 {
+    background-color: #247BA0;
+    border-radius: 0 0 20 20;
+}
+
+.CSSLabel {
+    color: #247BA0;
+    font-size: 30;
+}
+
+.CSSLabelsub {
+    color: #E8F1F2;
+    font-size: 30;
+}
+
+
+.CSSlabel2 {
+    color: white;
+    font-size: 30;
+    text-align:justify;
+}
